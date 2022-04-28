@@ -1,0 +1,171 @@
+
+html {
+background-color: black;
+
+}
+
+
+
+header {
+background-color: black;
+height: 25rem;
+width: 100%;
+
+}
+
+#contact-menu {
+    font-family: "Anton";
+    font-size: 2.75rem;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    
+
+
+    
+    
+}
+
+#contact-menu li {
+    display: inline;
+    padding: 2rem;
+    position:relative;
+    top: 2rem;
+}
+
+#contact-menu a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+#contact-menu a:visited {
+    color: white;
+    
+    
+}
+
+#contact-menu a:hover {
+color: rgb(14, 143, 107);
+cursor: pointer;
+}
+
+
+#contact-heading {
+    font-family: "Adamina";
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position:relative;
+    top: 5rem;
+    -webkit-text-stroke: 1px rgb(14, 143, 107);
+    
+    
+}
+
+#contactinfo-container {
+position: relative;
+bottom: 8rem;
+
+}
+
+.Brent-info {
+font-family: "DM Serif Display";
+font-size: 2rem;
+text-align: center;
+color: white;
+padding-bottom: 0;
+
+}
+
+.Brent-info2 {
+    font-family: "DM Serif Display";
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 0;
+    padding-top: 0;
+    line-height: 0;
+}
+
+
+#Email-text {
+
+    font-family: "Adamina";
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    text-align: center;
+    bottom: 4rem;
+
+}
+
+#contact-form {
+
+ margin: auto;
+ width: 28rem;
+position: relative;
+bottom: 5rem;
+
+    
+
+
+}
+
+#contact-container {
+
+    
+
+}
+
+input {
+    width: 30rem;
+    height: 3rem;
+    border: 0.25rem solid rgb(14, 143, 107);  
+    font-size: 1.25rem;
+    font-family: "DM Serif Display";
+
+
+
+}
+
+textarea {
+    width: 30rem;
+    height: 15rem;
+    border: 0.25rem solid rgb(14, 143, 107);  
+    font-size: 1.25rem;
+    font-family: "DM Serif Display";
+}
+
+
+
+#grid-grid2 {
+
+}
+
+#grid-grid3 {
+
+}
+
+.btn-grid {
+height: 3rem;
+width: 8rem;
+background-color:rgb(14, 143, 107);
+}
+
+.btn-grid:hover {
+    cursor: pointer;
+}
+
+.front {
+color: black;
+font-size: 1rem;
+}
+
+.back {
+
+
+}
+

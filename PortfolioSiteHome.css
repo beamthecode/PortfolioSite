@@ -9,7 +9,7 @@ header {
     background-size: cover;
     height: 50rem;
     width: 100%;
-
+    
 }
 
 
@@ -21,6 +21,10 @@ header {
     list-style: none;
     text-decoration: none;
     float: right;
+    
+
+
+    
     
 }
 
@@ -117,6 +121,7 @@ background-color: black;
 
 }
 
+
 #about {
 
 }
@@ -166,9 +171,18 @@ object-fit: scale-down;
  
 }
 
+.project-headings {
+font-family: "Adamina";
+font-size: 2rem;
+font-weight: bold;
+color: white;
+text-align: center;
+
+}
+
 #pickupline-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: black;
     justify-content: space-around;
     align-items: center;
@@ -177,13 +191,13 @@ object-fit: scale-down;
     }
 
 
-#pickuplineinfo-container {
-
-}
-
 #pickuplinephoto-container video {
-    height: 30rem;
-    width: 37rem;
+    height: 35rem;
+    width: 55rem;
     object-fit: scale-down;
 }
     
+
+#pickuplineinfo-container {
+
+}
