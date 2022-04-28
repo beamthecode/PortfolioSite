@@ -1,0 +1,150 @@
+html {
+font-size: 16px;
+background-color: black;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1606647352524-86d835bf9d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fGJsYWNrJTIwcm91Z2glMjB0ZXh0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+
+}
+
+
+
+#menu {
+    font-family: "Anton";
+    font-size: 2.75rem;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    
+}
+
+#menu li {
+    display: inline;
+    padding: 2rem;
+    position:relative;
+    top: 2rem;
+}
+
+#menu a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+#menu a:visited {
+    color: white;
+    
+    
+}
+
+#menu a:hover {
+color: rgb(14, 143, 107);
+cursor: pointer;
+}
+
+
+
+#header-name {
+    font-family: "Adamina";
+    font-size: 8rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position:relative;
+    top: 10rem;
+    -webkit-text-stroke: 1px rgb(14, 143, 107);
+    
+    
+
+
+}
+
+#header-quote {
+    font-family: "DM Serif Display";
+    font-size: 1.30rem;
+    color: white;
+    opacity: 90%;
+    border-left: .7rem solid rgb(14, 143, 107);
+    margin: 1.5em 0.7rem;
+    padding: 0.5em 0.7rem;
+    position: relative;
+    top: 5rem;
+    left:14rem;
+    width: 65%;
+    
+    
+}
+    
+
+#header-quote:before {
+    color: rgb(14, 143, 107);
+    content: open-quote;
+    font-size: 2rem;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+#header-quote:after {
+    color: rgb(14, 143, 107);
+    content: close-quote;
+    font-size:2rem;
+    line-height: 0.1em;
+    margin-left:0.25em;
+    vertical-align: -0.4em;
+}
+
+
+
+#header-quote p {
+display: inline;
+}
+
+.section-headings {
+font-family: "Anton";
+font-size: 3rem;
+text-align: center;
+color: white;
+background-color: black;
+
+
+
+}
+
+#about {
+
+}
+
+#aboutBrent-container {
+display: flex;
+flex-direction: row;
+background-color: black;
+justify-content: center;
+align-items: center;
+}
+
+#Brentphoto-container img {
+
+width: 30rem;
+height: 40rem;
+object-fit: scale-down;
+
+
+}
+
+#Brentinfo-container {
+
+}
+
+.notes-text {
+    font-family: "DM Serif Display";
+    font-size: 1.50rem;
+    color: white;
+    
+}
