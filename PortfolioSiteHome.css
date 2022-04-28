@@ -127,6 +127,7 @@ flex-direction: row;
 background-color: black;
 justify-content: center;
 align-items: center;
+position: relative;
 }
 
 #Brentphoto-container img {
@@ -142,9 +143,47 @@ object-fit: scale-down;
 
 }
 
+#aboutBrent-container::after {
+    content:"";
+    background: white;
+    opacity: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 7.75rem;
+    width: 80%;
+    height: 0.5rem;
+    border-radius: 50%;
+}
+
 .notes-text {
     font-family: "DM Serif Display";
-    font-size: 1.50rem;
+    font-size: 1.25rem;
     color: white;
     
 }
+
+#projects {
+ 
+}
+
+#pickupline-container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    }
+
+
+#pickuplineinfo-container {
+
+}
+
+#pickuplinephoto-container video {
+    height: 30rem;
+    width: 37rem;
+    object-fit: scale-down;
+}
+    
