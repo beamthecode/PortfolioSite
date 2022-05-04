@@ -6,20 +6,26 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Anton&family=Cormorant+Infant:wght@500&family=DM+Serif+Display&display=swap" rel="stylesheet">
-   </head>
+        <script src="https://kit.fontawesome.com/64c0ebeb5c.js" crossorigin="anonymous"></script>
+
+    </head>
     <header>
+    <div id="nav-menu">
      <nav id="menu">
          <li><a href="#about">About</a></li>
          <li><a href="#projects">Projects</a></li>
          <li><a href="#">Contact</a></li>
      </nav>
-     <br></br>
+    </div>
+     <div id="header-container">
      <h1 id="header-name">Brent Beamer</h1>
      <br></br>
      <blockquote id="header-quote"><p> I came to developing with a background in music and accounting. I've found the process of developing to be a perfect 
          combination of creativity and analytical thinking. I guess that opposites do attract, and sometimes they even develop into something more.   
          </p></blockquote>
+    </div>
     </header>
+    <br></br>
     <main>
         <body>
             <section id="about">
@@ -47,12 +53,22 @@
                 <br></br>
                 <h3 class="project-headings">Random Pick Up Line Generator</h3>
                 <br></br>
-                <div id="pickupline-container">
-                    <div id="pickuplinephoto-container">
-                        <video autoplay loop>
-                            <source src="PickUpLineVideo.mov" type=video/webm>
-                        </video>
-                   </div>
+
+                <div class="carousel-container">
+                    <i class="fa-solid fa-arrow-left" id="prevButton"></i>
+                    <i class="fa-solid fa-arrow-right" id="nextButton"></i>
+
+                    <div class="carousel-slide">
+                        <img src="Screenshot 3.png" id="lastClone" alt="">
+                        <img src="Screenshot 1.png" alt="">
+                        <img src="Screenshot 2.png" alt="">
+                        <img src="Screenshot 3.png" alt="">
+                        <img src="Screenshot 1.png" id ="firstClone" alt="">
+                    </div>
+                    
+                </div>
+                
+
                    <div id="pickuplineinfo-container">
                     <p class="notes-text">This is where I will write details about my project. 
                         Include motivations, inspirations, skills (languages used). Include a summary and the git hub repository link.
@@ -67,10 +83,16 @@
 
                 </div>
             </section>
-
+            <script src="PortfoliositeHome.js"></script>
         </body>
     </main>
     <footer>
-
+        <div class="footer">
+            <div class="footer-social">
+                <a href="#"><img src="github.png" class="icon-style" alt="Github icon"></a>
+                <a href="#"><img src="linkedinicon.png" class="icon-style" alt="LinkedIn icon"></a>
+                <a href="#"><img src="email.png" class="icon-style" alt="Email icon"></a>
+            </div>
+        </div>
     </footer>
 </HTMl>
