@@ -1,171 +1,194 @@
 
 html {
-background-color: black;
-
+  
+  
 }
 
-
+/* header and menu info below*/
 
 header {
-background-color: black;
-height: 25rem;
-width: 100%;
-
+  
+  
 }
 
-#contact-menu {
-    font-family: "Anton";
-    font-size: 2.75rem;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    float: right;
-    
+#nav-menu {
 
+  background-color: rgb(14, 143, 107);
+  height:7rem;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  
+  }
+  
+  #menu {
+      font-family: "Anton";
+      font-size: 2.75rem;
+      color: black;
+      list-style: none;
+      text-decoration: none;
+      float: right;
+     
+      
+  }
 
-    
-    
-}
-
-#contact-menu li {
+  #menu li {
     display: inline;
     padding: 2rem;
     position:relative;
     top: 2rem;
 }
 
-#contact-menu a:link {
+#menu a:link {
     text-decoration: none;
-    color: white;
+    color: black;
     
 }
 
-#contact-menu a:visited {
-    color: white;
+#menu a:visited {
+    color: black;
     
     
 }
 
-#contact-menu a:hover {
-color: rgb(14, 143, 107);
+#menu a:hover {
+color: rgb(189, 185, 185);
 cursor: pointer;
+-webkit-text-stroke: 0.5px black;
 }
 
+/* form body container info below */
 
-#contact-heading {
-    font-family: "Adamina";
-    font-size: 4rem;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    position:relative;
-    top: 5rem;
-    -webkit-text-stroke: 1px rgb(14, 143, 107);
-    
-    
-}
-
-#contactinfo-container {
-position: relative;
-bottom: 8rem;
+* {
+  font-family: "Adamina";
+  font-weight: bold;
 
 }
 
-.Brent-info {
-font-family: "DM Serif Display";
-font-size: 2rem;
-text-align: center;
-color: white;
-padding-bottom: 0;
-
+*:focus {
+  outline: 0;
 }
 
-.Brent-info2 {
-    font-family: "DM Serif Display";
-    font-size: 1.5rem;
-    text-align: center;
-    color: white;
-    padding-bottom: 0;
-    padding-top: 0;
-    line-height: 0;
+body {
+  background: whitesmoke;
+  margin-top: 0;
+  background-color: black;
+  position: relative;
+  
 }
 
-
-#Email-text {
-
-    font-family: "Adamina";
-    font-size: 2rem;
-    color: white;
-    position: relative;
-    text-align: center;
-    bottom: 4rem;
-
+h3 {
+  text-align: center;
+  font-size: 2rem;
 }
 
-#contact-form {
-
- margin: auto;
- width: 28rem;
-position: relative;
-bottom: 5rem;
-
-    
-
-
-}
-
-#contact-container {
-
-    
-
-}
-
-input {
-    width: 30rem;
-    height: 3rem;
-    border: 0.25rem solid rgb(14, 143, 107);  
-    font-size: 1.25rem;
-    font-family: "DM Serif Display";
-
-
-
-}
-
-textarea {
-    width: 30rem;
-    height: 15rem;
-    border: 0.25rem solid rgb(14, 143, 107);  
-    font-size: 1.25rem;
-    font-family: "DM Serif Display";
+.container {
+  padding: 12px 12px 12px 12px;
+  margin: auto;
+  background: rgb(14, 143, 107);
+  border-radius: 4px;
+  width: 40%;
+  height: auto;
+  position: relative;
+  top: 8rem;
+  margin-bottom: 20rem;
+  
 }
 
 
 
-#grid-grid2 {
-
+label {
+  font-size: 1.25rem;
+  margin-left: 12px;
 }
 
-#grid-grid3 {
-
+input[type=text], input[type=email], textarea {
+  width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 1rem;
 }
 
-.btn-grid {
-height: 3rem;
-width: 8rem;
-background-color:rgb(14, 143, 107);
+input [type=text]:focus, input[type=email]:focus, textarea:focus {
+  border: 1px solid black;
 }
 
-.btn-grid:hover {
-    cursor: pointer;
+input[type=submit] {
+  background: black;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+  font-size: 1.10rem;
+	text-align: center;  
 }
 
-.front {
-color: black;
-font-size: 1rem;
+input[type=submit]:focus {
+  background: red;
+  color:whitesmoke;
 }
 
-.back {
-
-
+input[type=submit]:hover {
+  background: white;
+  color: rgb(14, 143, 107);
 }
 
+.center {
+  text-align: center;
+}
+
+
+/* footer info below*/
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(14, 143, 107);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+  }
+  
+  
+  
+  .footer-social {
+      padding-right: 2.5rem;
+      margin-top: 1.25rem;
+      
+  
+  }
+  
+  .icon-style {
+      height: 3rem;
+      margin-left:1.5rem;
+      margin-top:0.25rem;
+      
+      
+  
+  }
+  
+  .icon-style img {
+     
+  }
+  
+  .icon-style:hover {
+      background-color:rgb(248, 252, 251);
+      padding: 0.35rem;
+      border-radius: 50%;
+  }
