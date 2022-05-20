@@ -17,7 +17,7 @@ header {
 
 #nav-menu {
 
-background-color: rgb(14, 143, 107);
+background-color: rgb(4, 19, 9);
 height:7rem;
 width: 100%;
 position: fixed;
@@ -28,7 +28,7 @@ z-index: 100;
 #menu {
     font-family: "Anton";
     font-size: 2.75rem;
-    color: black;
+    color: white;
     list-style: none;
     text-decoration: none;
     float: right;
@@ -48,12 +48,12 @@ z-index: 100;
 
 #menu a:link {
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 
 #menu a:visited {
-    color: black;
+    color: white;
     
     
 }
@@ -65,7 +65,7 @@ cursor: pointer;
 }
 
 #header-container {
-    background-image: url("https://images.unsplash.com/photo-1606647352524-86d835bf9d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fGJsYWNrJTIwcm91Z2glMjB0ZXh0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+    background-image: url("https://images.unsplash.com/photo-1475070929565-c985b496cb9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGxhbmRzY2FwZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
@@ -74,14 +74,14 @@ cursor: pointer;
 }
 
 #header-name {
-    font-family: "Adamina";
+    font-family: "Anton";
     font-size: 8rem;
     color: white;
     text-align: center;
     font-weight: bold;
     position:relative;
     top: 6rem;
-    -webkit-text-stroke: 1px rgb(14, 143, 107);
+    -webkit-text-stroke: 1px rgb(4, 19, 9);
     
     
 
@@ -93,7 +93,7 @@ cursor: pointer;
     font-size: 1.30rem;
     color: white;
     opacity: 90%;
-    border-left: .7rem solid rgb(14, 143, 107);
+    border-left: .7rem solid white;
     margin: 1.5em 0.7rem;
     padding: 0.5em 0.7rem;
     position: relative;
@@ -105,7 +105,7 @@ cursor: pointer;
     
 
 #header-quote:before {
-    color: rgb(14, 143, 107);
+    color: white;
     content: open-quote;
     font-size: 2rem;
     line-height: 0.1em;
@@ -114,7 +114,7 @@ cursor: pointer;
 }
 
 #header-quote:after {
-    color: rgb(14, 143, 107);
+    color: white;
     content: close-quote;
     font-size:2rem;
     line-height: 0.1em;
@@ -153,33 +153,114 @@ display: flex;
 flex-direction: row;
 background-color: black;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
 position: relative;
+height: auto;
+width: 100%;
 }
 
 #Brentphoto-container img {
 
-width: 30rem;
-height: 40rem;
+width: 28rem;
+height: 32rem;
 object-fit: scale-down;
+position: relative;
+top: 1.40rem;
 
 
 }
 
 #Brentinfo-container {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items:flex-start;
+}
+
+h6 {
+font-family: "Anton";
+color: white;
+font-size: 2rem;
+width: auto;
+height: auto;
+padding: 3rem;
+}
+
+#background-container {
+
+font-family: "Anton";
+color: white;
+font-size: 2rem;
+width: auto;
+height: auto;
+padding: 3rem;
 
 }
 
-#aboutBrent-container::after {
-    content:"";
-    background: rgb(14, 143, 107);
-    position: absolute;
-    bottom: 0;
-    left: 7.75rem;
-    width: 80%;
-    height: 0.5rem;
-    border-radius: 50%;
+.background-paragraph-1 {
+font-family: "DM Serif";
+font-size: 1.05rem;
+    
 }
+
+.background-paragraph-2 {
+    font-family: "DM Serif";
+    font-size: 1.05rem;
+        
+}
+
+.background-list {
+    font-family: "DM Serif";
+    font-size: 1.05rem;
+            
+
+}
+
+.background-paragraph-3 {
+    font-family: "DM Serif";
+    font-size: 1.05rem;
+            
+}
+
+
+.background-paragraph-4 {
+  font-family: "DM Serif";
+  font-size: 1.05rem;
+                
+}
+
+ .background-paragraph-5 {
+  font-family: "DM Serif";
+  font-size: 1.05rem;
+                    
+}
+
+.codecademy-list {
+    font-family: "DM Serif";
+    font-size: 1.05rem;
+
+}
+
+
+#skills-container {
+
+    font-family: "Anton";
+    color: white;
+    font-size: 2rem;
+    width: auto;
+    height: auto;
+    padding: 3rem;
+
+}
+
+
+
+
+
+
+
+
+
 
 .notes-text {
     font-family: "DM Serif Display";
@@ -193,7 +274,7 @@ object-fit: scale-down;
 }
 
 .project-headings {
-font-family: "Adamina";
+font-family: "Anton";
 font-size: 2rem;
 font-weight: bold;
 color: white;
@@ -275,7 +356,7 @@ position: sticky;
 left: 0;
 width: 100%;
 height: 7rem;
-background-color: rgb(14, 143, 107);
+background-color: white;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -304,7 +385,7 @@ justify-content: center;
 }
 
 .icon-style:hover {
-    background-color:rgb(248, 252, 251);
+    background-color: rgb(189, 185, 185);
     padding: 0.35rem;
     border-radius: 50%;
 }
